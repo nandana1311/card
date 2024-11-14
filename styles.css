@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+.business-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.card-header h1 {
+    margin: 0;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-body p {
+    margin: 5px 0;
+}
+
+.card-footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 0.9em;
+}
