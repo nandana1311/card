@@ -31,8 +31,8 @@
 }
 
 .profile-pic {
-  width: 80px; /* Adjust as needed */
-  height: 80px; /* Adjust as needed */
+  width: 80%; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 20px;
@@ -41,5 +41,5 @@
 .profile-pic img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Ensure image fills the container */
 }
