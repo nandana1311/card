@@ -22,8 +22,8 @@ body {
     padding: 20px;
 }
 .profile-pic {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px;
+  width: 30px; /* Adjust the width as needed */
+  height: 30px;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto 20px;
